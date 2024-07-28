@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Sabbir Hasan Munna's Portfolio
 
-## Getting Started
+Welcome to my personal portfolio website! This website showcases my projects, skills, and experience as a full stack developer and physics researcher.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Responsive Design**: Works seamlessly on both desktop and mobile devices.
+- **Animated Navbar**: Includes a responsive, animated navigation bar.
+- **Portfolio Sections**: Features sections for Home, About, Projects, and Contact.
+- **Dark Mode Styling**: Utilizes Tailwind CSS for modern, clean design.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technology Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Frontend**:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+  - [Next.js 14](https://nextjs.org/) - React framework for building server-rendered and statically generated applications.
+  - [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework for custom designs.
 
-## Learn More
+- **Backend**:
 
-To learn more about Next.js, take a look at the following resources:
+  - [Django](https://www.djangoproject.com/) - Python-based framework for building robust and scalable backend services.
+  - [Django REST Framework](https://www.django-rest-framework.org/) - Toolkit for building Web APIs.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Database**:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+  - [PostgreSQL](https://www.postgresql.org/) - Powerful, open-source object-relational database system.
 
-## Deploy on Vercel
+- **Deployment**:
+  - [Vercel](https://vercel.com/) - Hosting platform for deploying Next.js applications.
+  - [Azure](https://azure.microsoft.com/) - Cloud services for backend and database hosting.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Installation
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+To get started with this project, follow these steps:
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/sabbir2609/sabbir2609.git
+   ```
