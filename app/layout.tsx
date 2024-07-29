@@ -3,6 +3,8 @@ import { Inter, Jost } from "next/font/google";
 import "./globals.css";
 import { Footer, Navbar } from "@/components";
 
+import NextTopLoader from 'nextjs-toploader';
+
 const inter = Inter({ subsets: ["latin"] });
 
 const APP_NAME = "Sabbir Hasan Munna";
@@ -39,6 +41,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={jost.className}>
+        <NextTopLoader />
         <Navbar />
         {children}
         <Footer />
