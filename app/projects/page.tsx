@@ -1,13 +1,23 @@
 import Link from "next/link";
+import Image from "next/image";
+
+interface Project {
+    id: number;
+    title: string;
+    type: string;
+    description: string;
+    repo: string;
+    live_link: string;
+}
 
 export default function Projects() {
-    const projects = [
+    const projects: Project[] = [
         {
             "id": 1,
             "title": "Headless E-commerce",
             "type": "Backend",
             "description": "A headless e-commerce platform using Django REST Framework, Signals, PostgreSQL, and Redis.",
-            "github_link": "https://github.com/sabbir2609/storefront",
+            "repo": "storefront",
             "live_link": "#"
         },
         {
@@ -15,15 +25,15 @@ export default function Projects() {
             "title": "School Management System",
             "type": "Full Stack",
             "description": "A comprehensive school management system built with Django, Bootstrap, jQuery, Ajax, and PostgreSQL.",
-            "github_link": "https://github.com/sabbir2609/next-school",
+            "repo": "next-school",
             "live_link": "#"
         },
         {
             "id": 3,
             "title": "CO2 Forecasting",
             "type": "Machine Learning",
-            "description": "A CO2 forecasting project using Python and LSTM.",
-            "github_link": "https://github.com/sabbir2609/co2-forecasting",
+            "description": "A CO2 Time Series forecasting project using Python and LSTM.",
+            "repo": "Time-Series-Forecasting-RNN-LSTM",
             "live_link": "#"
         },
         {
@@ -31,7 +41,7 @@ export default function Projects() {
             "title": "Hotel Management System Backend",
             "type": "Backend",
             "description": "Hotel management system backend using Django REST Framework, Next.js, WebSockets, Uvicorn, IoT, and MQTT.",
-            "github_link": "https://github.com/sabbir2609/zenith-be",
+            "repo": "zenith-be",
             "live_link": "#"
         },
         {
@@ -39,38 +49,51 @@ export default function Projects() {
             "title": "Hotel Management System Frontend",
             "type": "Frontend",
             "description": "Hotel management system frontend using Next.js 14 App Routes, Tailwind CSS, and React Query.",
-            "github_link": "https://github.com/sabbir2609/zenith-fe",
+            "repo": "zenith-fe",
             "live_link": "#"
         },
         {
             "id": 5,
             "title": "Plant Based Decor Website Backend",
+            "type": "Backend",
             "description": "A website for plant-based decor built with Django, Next.js, and Cloudinary.",
-            "github_link": "https://github.com/sabbir2609/plantx-be",
+            "repo": "plantx-be",
             "live_link": "#"
         },
-
         {
             "id": 6,
             "title": "Plant Based Decor Website Frontend",
+            "type": "Frontend",
             "description": "A website for plant-based decor built with Django, Next.js, and Cloudinary.",
-            "github_link": "https://github.com/sabbir2609/plantx-fe",
-            "live_link": "#"
+            "repo": "plantx-fe",
+            "live_link": "https://viriditas.vercel.app/"
         },
     ];
     return (
-        <section className="mt-10 mx-auto p-6">
-            <h1 className="text-4xl font-bold text-center text-primary mb-6">Projects</h1>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <section className="mt-6 mx-auto p-6">
+            <h1 className="text-4xl font-bold text-center mb-10">Projects</h1>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {projects.map((project) => (
-                    <div key={project.id} className="card bg-base-100 shadow-lg">
+                    <div key={project.id} className="card card-compact bg-base-200 shadow-md hover:scale-105 transform transition-transform ease-in-out duration-300">
+                        <figure>
+                            <Image
+                                src={`https://socialify.git.ci/sabbir2609/${project.repo}/image?description=1&forks=1&issues=1&language=1&name=1&owner=1&pattern=Signal&pulls=1&stargazers=1&theme=Light`}
+                                alt={project.title}
+                                width={500}
+                                height={500}
+                            />
+                        </figure>
                         <div className="card-body">
-                            <h2 className="card-title text-2xl font-bold text-secondary">{project.title}</h2>
-                            <p className="mt-2 text-gray-700 flex-grow">{project.description}</p>
-                            <div className="card-actions justify-end mt-4">
-                                <Link href={project.github_link} className="btn btn-link text-primary">GitHub</Link>
+                            <h2 className="card-title">{project.title}</h2>
+                            <p>{project.description}</p>
+                            <div className="card-actions justify-end items-center mt-2">
+                                <Link
+                                    href={`https://github.com/sabbir2609/${project.repo}`}
+                                    className="btn btn-sm hover:text-primary">
+                                    GitHub
+                                </Link>
                                 {project.live_link !== "#" && (
-                                    <Link href={project.live_link} className="btn btn-link text-primary ml-4">Live</Link>
+                                    <Link href={project.live_link} className="btn btn-sm hover:text-primary ml-2">Live</Link>
                                 )}
                             </div>
                         </div>

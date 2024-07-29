@@ -3,7 +3,7 @@ import profilePic from "@/public/me/profile.jpg";
 
 export default function About() {
     return (
-        <section className="m-10">
+        <section className="p-6 lg:m-10">
             <div className="flex flex-col items-center md:flex-row md:items-start md:space-x-10">
                 <Image
                     src={profilePic}
