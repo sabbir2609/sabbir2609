@@ -12,7 +12,7 @@ export default function ContactSection() {
                 </p>
                 <div className="flex justify-center space-x-4">
                     <Link
-                        href="https://wa.me/8801303782589"
+                        href="https://wa.me/8801610488539"
                         target="_blank"
                         className="btn btn-primary rounded-full flex items-center space-x-2"
                     >
