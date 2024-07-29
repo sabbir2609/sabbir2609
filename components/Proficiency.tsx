@@ -15,7 +15,7 @@ export default function Proficiency() {
         { name: 'Docker', level: 40 },
     ]
     return (
-        <section className="relative py-12 bg-base-200 min-h-screen content-center">
+        <section className="relative py-12 bg-base-200 lg:min-h-screen content-center">
             <div className="mx-auto p-8">
                 <h2 className="text-3xl font-bold text-center mb-8">Proficiency</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center">

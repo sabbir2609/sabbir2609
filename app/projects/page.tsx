@@ -1,5 +1,11 @@
 import Link from "next/link";
 import Image from "next/image";
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+    title: "Projects",
+    description: "Explore Sabbir Hasan Munna's projects, including full stack web applications, machine learning projects, and more.",
+};
 
 interface Project {
     id: number;
@@ -89,11 +95,11 @@ export default function Projects() {
                             <div className="card-actions justify-end items-center mt-2">
                                 <Link
                                     href={`https://github.com/sabbir2609/${project.repo}`}
-                                    className="btn btn-sm hover:text-primary">
+                                    className="btn btn-sm hover:text-primary" target="_blank">
                                     GitHub
                                 </Link>
                                 {project.live_link !== "#" && (
-                                    <Link href={project.live_link} className="btn btn-sm hover:text-primary ml-2">Live</Link>
+                                    <Link href={project.live_link} className="btn btn-sm hover:text-primary ml-2" target="_blank">Live</Link>
                                 )}
                             </div>
                         </div>

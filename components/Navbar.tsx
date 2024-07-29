@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { CircleX, SquareChevronLeft } from 'lucide-react';
+import ThemeChange from './utils/ThemeChange';
 
 export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
@@ -30,22 +31,32 @@ export default function Navbar() {
         <header className="relative z-40">
             <nav className="mx-auto flex justify-between items-center p-3">
                 <Link href="/" className="btn btn-ghost btn-sm text-lg font-bold text-blue-500">Sabbir</Link>
-                <div className="hidden md:flex space-x-4">
-                    {menuItems.map((item, index) => (
-                        <Link
-                            key={index}
-                            href={item.link}
-                            className="btn btn-sm btn-ghost"
-                        >
-                            {item.name}
-                        </Link>
-                    ))}
+                <div className='flex items-center space-x-4'>
+
+                    <div className="hidden md:flex space-x-4">
+                        {menuItems.map((item, index) => (
+                            <Link
+                                key={index}
+                                href={item.link}
+                                className="btn btn-sm btn-ghost"
+                            >
+                                {item.name}
+                            </Link>
+                        ))}
+                    </div>
+
+
+
+                    <ThemeChange />
+
+                    <div className="md:hidden z-50">
+                        <button onClick={toggleMenu} className="btn btn-ghost btn-circle transition duration-500 ease-in-out transform hover:scale-110 focus:outline-none">
+                            {isOpen ? <CircleX /> : <SquareChevronLeft />}
+                        </button>
+                    </div>
+
                 </div>
-                <div className="md:hidden z-50">
-                    <button onClick={toggleMenu} className="">
-                        {isOpen ? <CircleX /> : <SquareChevronLeft />}
-                    </button>
-                </div>
+
             </nav>
             <div
                 className={`md:hidden fixed top-0 left-0 right-0 bottom-0 bg-base-300 bg-opacity-90 z-40 transform ${isOpen ? 'translate-x-0' : 'translate-x-full'

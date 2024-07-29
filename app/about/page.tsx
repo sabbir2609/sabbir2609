@@ -1,5 +1,12 @@
 import Image from "next/image";
+import type { Metadata } from 'next';
 import profilePic from "@/public/me/profile.jpg";
+
+
+export const metadata: Metadata = {
+    title: "About Me",
+    description: "Learn more about Sabbir Hasan Munna, a full stack developer and physics researcher.",
+};
 
 export default function About() {
     return (

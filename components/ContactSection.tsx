@@ -4,7 +4,7 @@ import { Mail, MessageSquare } from 'lucide-react';
 
 export default function ContactSection() {
     return (
-        <section className="relative py-12 bg-base-300 min-h-screen content-center">
+        <section className="relative py-12 bg-base-300 lg:min-h-screen content-center">
             <div className="mx-auto px-4 text-center">
                 <h2 className="text-3xl font-bold mb-8">Tell Me About Your Next Project</h2>
                 <p className="mb-8 text-lg">
