@@ -1,6 +1,6 @@
 export default function Contact() {
     return (
-        <section className="mt-10 max-w-2xl mx-auto p-6 bg-base-100 rounded-lg shadow-lg">
+        <section className="max-w-2xl mx-auto p-6 bg-base-100 rounded-lg shadow-lg min-h-[92vh] content-center">
             <h1 className="text-4xl font-bold text-center text-primary mb-6">Contact Me</h1>
             <form className="space-y-6">
                 <div className="form-control">

@@ -8,28 +8,24 @@ export default function Proficiency() {
         { name: 'Python', level: 90 },
         { name: 'JavaScript', level: 85 },
         { name: 'TypeScript', level: 80 },
-        { name: 'Django', level: 85 },
-        { name: 'React', level: 80 },
+        { name: 'Django', level: 90 },
+        { name: 'React', level: 70 },
         { name: 'Next.js', level: 75 },
-        // Add more skills as needed
+        { name: 'Tailwind CSS', level: 80 },
+        { name: 'Docker', level: 40 },
     ]
     return (
-        <section className="relative py-12 bg-base-200">
-            <div className="container mx-auto px-4">
+        <section className="relative py-12 bg-base-200 min-h-screen content-center">
+            <div className="mx-auto p-8">
                 <h2 className="text-3xl font-bold text-center mb-8">Proficiency</h2>
-                <div className="space-y-4">
-                    {skills.map((skill) => (
-                        <div key={skill.name}>
-                            <div className="flex justify-between mb-1">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center">
+                    {skills.map((skill, key) => (
+                        <div key={key} className="p-4 bg-base-100 rounded-lg shadow-md">
+                            <div className="flex justify-between">
                                 <span className="text-base font-medium">{skill.name}</span>
                                 <span className="text-sm font-medium">{skill.level}%</span>
                             </div>
-                            <div className="w-full bg-gray-300 rounded-full h-2.5">
-                                <div
-                                    className="bg-blue-600 h-2.5 rounded-full"
-                                    style={{ width: `${skill.level}%` }}
-                                ></div>
-                            </div>
+                            <progress className="progress progress-accent w-full h-4" value={skill.level} max="100"></progress>
                         </div>
                     ))}
                 </div>

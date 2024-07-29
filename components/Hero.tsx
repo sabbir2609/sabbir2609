@@ -96,7 +96,7 @@ export default function Hero() {
         [],
     );
     return (
-        <section className="relative w-full overflow-hidden min-h-[90vh]">
+        <section className="relative w-full overflow-hidden min-h-[92vh] content-center">
             {init && (
                 <Particles
                     id="tsparticles"
