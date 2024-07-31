@@ -1,39 +1,49 @@
-# Sabbir Hasan Munna's Portfolio
+<h2 align="left">Hi 👋! My name is Sabbir Hasan Munna and I'm a Researcher | Developer | Tech Enthusiast, from Khulna,Bangladesh </h2>
 
-Welcome to my personal portfolio website! This website showcases my projects, skills, and experience as a full stack developer and physics researcher.
+###
 
-## Features
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=maurodesouza&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=maurodesouza&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
+</div>
 
-- **Responsive Design**: Works seamlessly on both desktop and mobile devices.
-- **Animated Navbar**: Includes a responsive, animated navigation bar.
-- **Portfolio Sections**: Features sections for Home, About, Projects, and Contact.
-- **Dark Mode Styling**: Utilizes Tailwind CSS for modern, clean design.
+###
 
-## Technology Stack
+<img align="right" height="150" src="https://i.imgflip.com/65efzo.gif"  />
 
-- **Frontend**:
+###
 
-  - [Next.js 14](https://nextjs.org/) - React framework for building server-rendered and statically generated applications.
-  - [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework for custom designs.
+<div align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="30" alt="typescript logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="30" alt="react logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" alt="html5 logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30" alt="css3 logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" alt="python logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="30" alt="csharp logo"  />
+</div>
 
-- **Backend**:
+###
 
-  - [Django](https://www.djangoproject.com/) - Python-based framework for building robust and scalable backend services.
-  - [Django REST Framework](https://www.django-rest-framework.org/) - Toolkit for building Web APIs.
+<div align="left">
+  <img src="https://img.shields.io/static/v1?message=Youtube&logo=youtube&label=&color=FF0000&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="youtube logo"  />
+  <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="instagram logo"  />
+  <img src="https://img.shields.io/static/v1?message=Twitch&logo=twitch&label=&color=9146FF&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="twitch logo"  />
+  <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="discord logo"  />
+  <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo"  />
+  <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />
+</div>
 
-- **Database**:
+###
 
-  - [PostgreSQL](https://www.postgresql.org/) - Powerful, open-source object-relational database system.
+<br clear="both">
 
-- **Deployment**:
-  - [Vercel](https://vercel.com/) - Hosting platform for deploying Next.js applications.
-  - [Azure](https://azure.microsoft.com/) - Cloud services for backend and database hosting.
+<img src="https://raw.githubusercontent.com/maurodesouza/maurodesouza/output/snake.svg" alt="Snake animation" />
 
-## Installation
-
-To get started with this project, follow these steps:
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/sabbir2609/sabbir2609.git
-   ```
+###
