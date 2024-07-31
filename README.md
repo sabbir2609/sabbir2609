@@ -40,58 +40,6 @@ perform effectively under pressure, I bring a unique blend of scientific rigor a
 
 7. #### [Personal Portfolio Website](https://github.com/sabbir2609/sabbir2609)
 
----
-
-#### Plant-Based Decor Website
-
-An e-commerce platform for selling plant-based home decor items.
-
-- **Repository:** [Link](https://github.com/sabbir2609/plant-based-decor)
-- **Technologies:** Django, Next.js, Cloudinary, Stripe API
-
----
-
-#### Hotel Management System
-
-A full-stack application for managing hotel reservations and customer data.
-
-- **Repository:** [Link](https://github.com/sabbir2609/hotel-management-system)
-- **Technologies:** Django REST Framework, Next.js, WebSockets, IoT
-
----
-
-#### CO2 Forecasting
-
-A machine learning project for predicting CO2 levels using LSTM networks.
-
-- **Repository:** [Link](https://github.com/sabbir2609/co2-forecasting)
-- **Technologies:** Python, TensorFlow, Pandas
-
----
-
-#### Headless E-commerce Project
-
-A headless e-commerce platform with a decoupled architecture.
-
-- **Repository:** [Link](https://github.com/sabbir2609/headless-ecommerce)
-- **Technologies:** Django REST Framework, React, PostgreSQL, Redis
-
----
-
-#### School Management System
-
-A web application for managing school operations.
-
-- **Repository:** [Link](https://github.com/sabbir2609/school-management-system)
-- **Technologies:** Django, Bootstrap, jQuery
-
----
-
-### Other Notable Projects
-
-- **Personal Portfolio Website:** Built with Next.js and Tailwind CSS.
-  - **Repository:** [Link](https://github.com/sabbir2609/sabbir2609)
-
 Feel free to explore these projects and reach out if you have any questions or collaboration ideas!
 
 ### 💻 Tech Stack
