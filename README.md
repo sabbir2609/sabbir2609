@@ -26,12 +26,19 @@ perform effectively under pressure, I bring a unique blend of scientific rigor a
 
 ### 🚀 Projects
 
-#### Transportation Management System
+1. #### [Transportation Management System](https://github.com/sabbir2609/transportation-management-system)
 
-A comprehensive system for managing transportation logistics.
+2. #### [Plant-Based Decor Website](https://github.com/sabbir2609/plant-based-decor)
 
-- **Repository:** [Link](https://github.com/sabbir2609/transportation-management-system)
-- **Technologies:** Django REST Framework, PostgreSQL, Docker, Redis
+3. #### [Hotel Management System](https://github.com/sabbir2609/hotel-management-system)
+
+4. #### [CO2 Forecasting](https://github.com/sabbir2609/co2-forecasting)
+
+5. #### [Headless E-commerce Project](https://github.com/sabbir2609/headless-ecommerce)
+
+6. #### [School Management System](https://github.com/sabbir2609/school-management-system)
+
+7. #### [Personal Portfolio Website](https://github.com/sabbir2609/sabbir2609)
 
 ---
 
