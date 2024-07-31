@@ -14,7 +14,7 @@ perform effectively under pressure, I bring a unique blend of scientific rigor a
 - Email: [sabbirhasan2999@gmail.com](mailto:sabbirhasan2999@gmail.com)
 - LinkedIn: [sabbir2609](https://www.linkedin.com/in/sabbir2609/)
 - Twitter: [sabbir2609](https://twitter.com/sabbir2609)
-- Website: [sabbir.dev](https://sabbir.dev)
+- Website: [sabbir.tech](https://sabbir.tech)
 - Facebook: [sabbir2609](https://www.facebook.com/0xsabbir)
 - Instagram: [sabbir2609](https://www.instagram.com/0xsabbir)
 
