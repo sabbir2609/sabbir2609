@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import type { Metadata } from 'next';
+import viriditasImg from "@/public/image/viriditas.png";
 
 export const metadata: Metadata = {
     title: "Projects",
@@ -12,7 +13,8 @@ interface Project {
     title: string;
     type: string;
     description: string;
-    repo: string;
+    repo?: string;
+    image?: string;
     live_link: string;
 }
 
@@ -51,7 +53,7 @@ export default function Projects() {
             "live_link": "#"
         },
         {
-            "id": 4,
+            "id": 5,
             "title": "Hotel Management System Frontend",
             "type": "Frontend",
             "description": "Hotel management system frontend using Next.js 14 App Routes, Tailwind CSS, and React Query.",
@@ -59,20 +61,20 @@ export default function Projects() {
             "live_link": "#"
         },
         {
-            "id": 5,
+            "id": 6,
             "title": "Plant Based Decor Website Backend",
             "type": "Backend",
             "description": "A website for plant-based decor built with Django, Next.js, and Cloudinary.",
-            "repo": "plantx-be",
+            "image": viriditasImg.src,
             "live_link": "#"
         },
         {
-            "id": 6,
+            "id": 7,
             "title": "Plant Based Decor Website Frontend",
             "type": "Frontend",
             "description": "A website for plant-based decor built with Django, Next.js, and Cloudinary.",
-            "repo": "plantx-fe",
-            "live_link": "https://viriditas.vercel.app/"
+            "image": viriditasImg.src,
+            "live_link": "https://theviriditas.com/"
         },
     ];
     return (
@@ -80,13 +82,14 @@ export default function Projects() {
             <h1 className="text-4xl font-bold text-center mb-10">Projects</h1>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {projects.map((project) => (
-                    <div key={project.id} className="card card-compact bg-base-200 shadow-md hover:scale-105 transform transition-transform ease-in-out duration-300">
+                    <div key={project.id} className="card card-compact bg-base-200 shadow-md lg:hover:scale-105 transform transition-transform ease-in-out duration-300">
                         <figure>
                             <Image
-                                src={`https://socialify.git.ci/sabbir2609/${project.repo}/image?description=1&forks=1&issues=1&language=1&name=1&owner=1&pattern=Signal&pulls=1&stargazers=1&theme=Light`}
+                                src={project.image ? project.image : `https://socialify.git.ci/sabbir2609/${project.repo}/image?description=1&forks=1&issues=1&language=1&name=1&owner=1&pattern=Signal&pulls=1&stargazers=1&theme=Light`}
                                 alt={project.title}
                                 width={500}
                                 height={500}
+                                className="h-52 object-cover w-full"
                             />
                         </figure>
                         <div className="card-body">
